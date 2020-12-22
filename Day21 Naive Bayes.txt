@@ -1,0 +1,1 @@
+為什麼特徵獨立的假設足以讓 Naive Bayes 被稱為 Naive?
