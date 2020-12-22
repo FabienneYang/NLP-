@@ -1,1 +1,5 @@
 為什麼特徵獨立的假設足以讓 Naive Bayes 被稱為 Naive?
+
+NBC模型假設屬性之間相互獨立，這個假設在實際應用中往往是不成立的
+
+https://towardsdatascience.com/whats-so-naive-about-naive-bayes-58166a6a9eba
