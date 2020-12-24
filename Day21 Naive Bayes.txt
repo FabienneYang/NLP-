@@ -13,3 +13,9 @@ A: 透過權衡 Bias Error 跟 Variance Error 來使得總誤差( Total Error ) 
    隨著模型複雜度的增加偏差會越來越低；而方差卻呈現了越來越高的趨勢，兩者是呈現 Tradeoff 的，只有在模型複雜度適中的時候，才有辦法得到最低的總誤差
    
 Reference: https://jason-chen-1992.weebly.com/home/-bias-variance-tradeoff
+
+Day26
+Q: 描述Blending與Stacking的差異
+A: Blending與Stacking都會產生2nd level的meta model，但其所使用來訓練meta model的方法不同。 
+   Stacking使用cross validation來產生訓練2nd level model所需要的訓練資料
+   Blending是在一開始就將training data切出一部分(holdout)來作為2nd level model的訓練資料
